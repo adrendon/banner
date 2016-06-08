@@ -10,6 +10,11 @@
     -webkit-animation: animatedBackground 16s steps(384) forwards;
     -ms-animation: animatedBackground 16s steps(384) forwards;
     -o-animation: animatedBackground 16s steps(384) forwards;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
 }
 @keyframes animatedBackground {
     0% { background-position: 0 0; }
