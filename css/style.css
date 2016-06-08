@@ -1,0 +1,33 @@
+.animatedLogo {
+    background-image: url('../banner.png');
+    background-position: 0px 0px;
+    height: 60px;
+    width: 468px;
+}
+.logoAnimated {
+    animation: animatedBackground 16s steps(384) forwards;
+    -moz-animation: animatedBackground 16s steps(384) forwards;
+    -webkit-animation: animatedBackground 16s steps(384) forwards;
+    -ms-animation: animatedBackground 16s steps(384) forwards;
+    -o-animation: animatedBackground 16s steps(384) forwards;
+}
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 179712px 0; }
+}
+@-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 179712px 0; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 179712px 0; }
+}
+@-ms-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position:179712px 0; }
+}
+@-o-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 0px 179712px; }
+}
