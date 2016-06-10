@@ -1,5 +1,5 @@
 .animatedLogo {
-    background-image: url('../banner.png');
+    background-image: url('../banner.jpg');
     background-position: 0px 0px;
     height: 60px;
     width: 468px;
@@ -17,22 +17,22 @@
     -o-animation-iteration-count: infinite;
 }
 @keyframes animatedBackground {
-    0% { background-position: 179712px 0;}
+    0% { background-position: 0 23040px;}
     100% { background-position: 0 0;}
 }
 @-moz-keyframes animatedBackground {
-    0% { background-position: 179712px 0;}
+    0% { background-position: 0 23040px;}
     100% { background-position: 0 0;}
 }
 @-webkit-keyframes animatedBackground {
-    0% { background-position: 179712px 0;}
+    0% { background-position: 0 23040px;}
     100% { background-position: 0 0;}
 }
 @-ms-keyframes animatedBackground {
-    0% { background-position: 179712px 0;}
+    0% { background-position: 0 23040px;}
     100% { background-position: 0 0;}
 }
 @-o-keyframes animatedBackground {
-    0% { background-position: 179712px 0;}
+    0% { background-position: 0 23040px;}
     100% { background-position: 0 0;}
 }
