@@ -1,9 +1,9 @@
-// .animatedLogo {
-//     background-image: url('../banner.jpg');
-//     background-position: 0px 0px;
-//     height: 60px;
-//     width: 468px;
-// }
+.animatedLogo {
+    background-image: url('../banner.jpg');
+    background-position: 0px 0px;
+    height: 60px;
+    width: 468px;
+}
 .logoAnimated {
     animation: animatedBackground 16s steps(384) forwards;
     -moz-animation: animatedBackground 16s steps(384) forwards;
