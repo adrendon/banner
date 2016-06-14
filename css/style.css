@@ -1,38 +1,21 @@
 .animatedLogo {
-    background-image: url('../banner.jpg');
-    background-position: 0px 0px;
+    background: url('../banner.jpg');
+    background-size: 100%;
+    display: block;
     height: 60px;
     width: 468px;
 }
 .logoAnimated {
-    animation: animatedBackground 16s steps(384) forwards;
-    -moz-animation: animatedBackground 16s steps(384) forwards;
     -webkit-animation: animatedBackground 16s steps(384) forwards;
-    -ms-animation: animatedBackground 16s steps(384) forwards;
-    -o-animation: animatedBackground 16s steps(384) forwards;
-    animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
+            animation: animatedBackground 16s steps(384) forwards;
     -webkit-animation-iteration-count: infinite;
-    -ms-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-}
-@keyframes animatedBackground {
-    0% { background-position: 0 23040px;}
-    100% { background-position: 0 0;}
-}
-@-moz-keyframes animatedBackground {
-    0% { background-position: 0 23040px;}
-    100% { background-position: 0 0;}
+            animation-iteration-count: infinite;
 }
 @-webkit-keyframes animatedBackground {
     0% { background-position: 0 23040px;}
     100% { background-position: 0 0;}
 }
-@-ms-keyframes animatedBackground {
-    0% { background-position: 0 23040px;}
-    100% { background-position: 0 0;}
-}
-@-o-keyframes animatedBackground {
+@keyframes animatedBackground {
     0% { background-position: 0 23040px;}
     100% { background-position: 0 0;}
 }
